@@ -14,9 +14,9 @@ Projetado com uma arquitetura de microsserviços, o sistema gerencia todo o cicl
 Confira abaixo o vídeo com a jornada completa de ponta a ponta, demonstrando os fluxos do Administrador, do Cliente Pessoa Física e da Empresa (Pessoa Jurídica):
 
 <div align="center">
-  <a href="https://youtu.be/W33DMWiJJQI" target="_blank">
-    <img src="https://youtu.be/W33DMWiJJQI/maxresdefault.jpg" alt="Demonstração FrotaNext" width="800" style="border-radius: 8px;">
-  </a>
+      <a href="https://youtu.be/W33DMWiJJQI" target="_blank">
+        <img src="https://img.youtube.com/vi/W33DMWiJJQI/0.jpg" alt="Demonstração FrotaNext" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 100%;">
+      </a>
   <p><em>Clique na imagem para assistir à demonstração no YouTube.</em></p>
 </div>
 

@@ -14,7 +14,7 @@ Antes de entrarmos nos detalhes técnicos, confira o vídeo abaixo demonstrando 
 !!! tip "Assista ao Vídeo da Jornada Completa"
     <div style="text-align: center; margin-top: 15px;">
       <a href="https://youtu.be/W33DMWiJJQI" target="_blank">
-        <img src="https://youtu.be/W33DMWiJJQI/maxresdefault.jpg" alt="Demonstração FrotaNext" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 100%;">
+        <img src="https://img.youtube.com/vi/W33DMWiJJQI/0.jpg" alt="Demonstração FrotaNext" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 100%;">
       </a>
       <p><em>Clique na imagem para assistir no YouTube.</em></p>
     </div>
