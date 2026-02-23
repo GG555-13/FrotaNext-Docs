@@ -1,0 +1,77 @@
+site_name: FrotaNext Docs
+site_url: https://frotanext-docs.vercel.app  
+site_author: Seu Nome
+site_description: Documentação técnica do sistema de locação de veículos FrotaNext.
+
+repo_name: FrotaNext / GitLab
+repo_url: https://gitlab.com/GG-555/frota-documentação
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo-fn.png
+  favicon: assets/logo-fn.png
+  
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
+  features:
+    - navigation.tabs
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+markdown_extensions:
+  - admonition        
+  - pymdownx.details  
+  - attr_list
+  - markdown.extensions.abbr   
+  
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Início: index.md
+  - Arquitetura:
+      - Visão Geral: arquitetura/visao-geral.md
+      - Banco de Dados: arquitetura/database.md
+  - Guia do Desenvolvedor:
+      - Instalação e Setup: dev/instalacao.md  
+      - Como Rodar os Testes: dev/testes.md     
+      - Estrutura de Pastas: dev/estrutura.md
+  - Backend Principal:
+      - Visão Geral: backend/index.md
+      - Modelos e Regras: backend/models.md
+  - Auth Service:
+      - Visão Geral: auth/index.md
+      - Fluxo JWT: auth/jwt.md
+  - Frontend:
+      - Visão Geral: frontend/index.md
+      - Componentes: frontend/componentes.md
+  - Deploy:
+      - Guia de Hospedagem: deploy/guia.md
