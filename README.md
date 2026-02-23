@@ -27,9 +27,9 @@ Confira abaixo o vídeo com a jornada completa de ponta a ponta, demonstrando os
 Para manter as responsabilidades separadas e facilitar a escalabilidade, o ecossistema do projeto é dividido em quatro repositórios distintos. **Este repositório atua como o Orquestrador.**
 
 * 📍 **Você está aqui:** Orquestração (Docker Compose), Documentação e Testes Visuais.
-* 💻 **[Frontend (React)](COLOQUE_O_LINK_AQUI):** Interface de usuário (SPA) construída com Vite, TypeScript e Tailwind CSS.
-* ⚙️ **[Backend Principal (FastAPI)](COLOQUE_O_LINK_AQUI):** API Core responsável pela gestão da frota e regras de negócio de reservas.
-* 🔐 **[Auth Service (FastAPI)](COLOQUE_O_LINK_AQUI):** API de Identidade responsável por logins, hash de senhas e emissão de tokens JWT.
+* 💻 **[Frontend (React)](https://github.com/GG555-13/FrotaNext-Frontend):** Interface de usuário (SPA) construída com Vite, TypeScript e Tailwind CSS.
+* ⚙️ **[Backend Principal (FastAPI)](https://github.com/GG555-13/FrotaNext-Backend):** API Core responsável pela gestão da frota e regras de negócio de reservas.
+* 🔐 **[Auth Service (FastAPI)](https://github.com/GG555-13/FrotaNext-Auth):** API de Identidade responsável por logins, hash de senhas e emissão de tokens JWT.
 
 ---
 
@@ -105,9 +105,9 @@ cd FrotaNext
 
 2. Clone os microsserviços dentro da pasta `FrotaNext` (respeite os nomes exatos):
 ```bash
-git clone <LINK_FRONTEND> FrotaNext-Frontend-main
-git clone <LINK_BACKEND> FrotaNext-Backend-main
-git clone <LINK_AUTH> FrotaNext-Auth-main
+git clone https://github.com/GG555-13/FrotaNext-Frontend.git FrotaNext-Frontend-main
+git clone https://github.com/GG555-13/FrotaNext-Auth.git FrotaNext-Backend-main
+git clone https://github.com/GG555-13/FrotaNext-Auth.git FrotaNext-Auth-main
 ```
 
 
