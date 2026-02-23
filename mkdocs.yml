@@ -1,10 +1,10 @@
 site_name: FrotaNext Docs
-site_url: https://frotanext-docs.vercel.app  
+site_url: https://GG555-13.github.io/FrotaNext-Docs/
 site_author: Seu Nome
 site_description: Documentação técnica do sistema de locação de veículos FrotaNext.
 
-repo_name: FrotaNext / GitLab
-repo_url: https://gitlab.com/GG-555/frota-documentação
+repo_name: FrotaNext / GitHub
+repo_url: https://github.com/GG555-13/FrotaNext-Docs
 
 theme:
   name: material
