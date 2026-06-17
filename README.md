@@ -98,7 +98,7 @@ Como o projeto é totalmente conteinerizado, você só precisa ter o **Docker** 
 
 1. Clone este repositório orquestrador:
 ```bash
-git clone [https://gitlab.com/GG-555/frota-documentacao.git](https://gitlab.com/GG-555/frota-documentacao.git) FrotaNext
+git clone https://gitlab.com/GG-555/frota-documentacao.git FrotaNext
 cd FrotaNext
 ```
 
