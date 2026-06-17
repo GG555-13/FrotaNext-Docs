@@ -1,0 +1,36 @@
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 3.5rem; 
+    width: auto;    
+}
+
+
+:root {
+    --md-header-height: 5rem; 
+}
+
+.md-header__title {
+    align-items: center;
+    display: flex;
+}
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color:        #2563eb; 
+    --md-primary-fg-color--light: #3b82f6; 
+    --md-primary-fg-color--dark:  #1d4ed8; 
+    
+    --md-accent-fg-color:         #2563eb; 
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #1e293b; 
+    --md-primary-fg-color--light: #334155;
+    --md-primary-fg-color--dark:  #0f172a;
+    
+    --md-accent-fg-color:         #60a5fa; 
+}
+
+
+body, input {
+    font-family: 'Roboto', sans-serif;
+}
